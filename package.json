@@ -1,0 +1,30 @@
+{
+  "name": "bitspider",
+  "version": "0.9.0",
+  "description": "BitSpider REST API client on Node.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "echo \"Error: cannot run this module from the command line\" && exit 1",
+    "test": "mocha test/*"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  },
+  "homepage": "https://github.com/bitspider/node-bitspider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitspider/node-bitspider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitspider/node-bitspider/issues"
+  },
+  "author": "bitspider.com",
+  "license": "MIT"
+}
